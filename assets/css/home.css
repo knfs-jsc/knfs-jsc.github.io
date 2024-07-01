@@ -1,0 +1,281 @@
+/* Add your custom styles here */
+.header-container {
+    background-image: url("../img/hcm_1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 45rem;
+}
+
+.text-container {
+    margin-top: 350px !important;
+}
+
+.text-end {
+    text-align: end;
+}
+
+.btn-start {
+    background-color: #57ffdc;
+    border: #57ffdc;
+    color: #000;
+}
+
+.str-title {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.sub-title {
+    color: #013c4d;
+    font-size: 14px;
+}
+
+.main-title {
+    font-size: 42px;
+}
+
+.ml-content {
+    margin-left: -11px;
+}
+
+.mt-content {
+    margin-top: 80px;
+}
+
+.mb-content {
+    margin-bottom: 80px;
+}
+
+.mt-logo-footer {
+    margin-top: 27px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.img-mb {
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+.card-title {
+    color: #2b3377;
+    padding-bottom: 10px;
+}
+
+.icon-str {
+    padding-top: 33px;
+    padding-left: 18px;
+    font-size: 45px;
+    color: #5e80ad ;
+}
+
+.content-section-1 {
+    background-image: url("../img/content1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 450px 0;
+    object-fit: cover;
+}
+
+.content-section-2 {
+    background-image: url("../img/thap_rua.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 450px 0;
+    filter: brightness(0.8);
+    object-fit: cover;
+}
+
+.content-section-3 {
+    background-image: url("../img/content2.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 450px 0;
+    filter: brightness(0.8);
+    object-fit: cover;
+}
+
+.content-section .content-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.content-section .content-title-right {
+    font-size: 50px;
+    font-weight: bold;
+    color: #fff;
+    text-align: right;
+}
+
+.content-section .content-description {
+    color: #fff;
+    font-size: 32px;
+}
+
+.content-section .content-description-right {
+    color: #fff;
+    text-align: right;
+    font-size: 32px;
+}
+
+.content-section .content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+@media (max-width: 767px) {
+    .content-title {
+        font-size: 2rem;
+    }
+
+    .content-description {
+        font-size: 1.25rem;
+    }
+
+    .header-container {
+        padding-bottom: 392px;
+    }
+
+    .content-section-1, .content-section-2, .content-section-3 {
+        padding: 310px 0;
+    }
+}
+
+.leadership-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.leadership-section .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.leadership-section .leader-card {
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.leadership-section .leader-card img {
+    width: 282px;
+    height: 364px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.leadership-section .leader-card .leader-social {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leadership-section .leader-card:hover .leader-social {
+    opacity: 1;
+}
+
+.leadership-section .leader-card .leader-social a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+    margin-top: 205px
+}
+
+.leadership-section .leader-card .leader-social a:hover {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.leadership-section .leader-card .leader-social a i {
+    color: #0077B5; /* LinkedIn color */
+    margin-top: 8px;
+}
+
+.leadership-section .leader-card .leader-social a i:hover {
+    color: #0A66C2; /* LinkedIn hover color */
+}
+
+.leadership-section .leader-card .leader-social a.github i {
+    color: #333; /* GitHub color */
+}
+
+.leadership-section .leader-card .leader-social a.github i:hover {
+    color: #24292e; /* GitHub hover color */
+}
+
+.leadership-section .leader-card .leader-social a.linkedin {
+    position: relative;
+    top: 8px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    color: black;
+    width: 40px;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    color: black;
+}
+
+.carousel-indicators li {
+    background-color: black !important;
+    border-color: black !important; 
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50% !important;
+    border: 0 !important;
+    display: inline-block !important;
+    margin: 3px !important;
+    padding: 0 !important;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+    border-color: black;
+}
+
+@media (max-width: 767px) {
+    #leadership-carousel .carousel-inner .carousel-item .row .col-md-4 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .carousel-inner {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+
+      .carousel-item {
+        flex: 0 0 calc(100% - 10px); 
+        margin-right: 10px;
+      }
+}
+
+

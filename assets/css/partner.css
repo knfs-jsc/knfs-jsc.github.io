@@ -1,0 +1,11 @@
+#strategic-partners .partner-img {
+    width: 160px;
+    height: 60px;
+    object-fit: contain;
+    transition: transform 0.3s;
+}
+
+#strategic-partners .partner-img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}

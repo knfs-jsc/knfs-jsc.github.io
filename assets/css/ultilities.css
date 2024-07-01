@@ -1,0 +1,28 @@
+:root {
+    --knfs-primary: #57ffdc;
+    --knfs-secondary: #013c4d;
+}
+
+.hover-underline:hover {
+    text-decoration: underline !important;
+}
+
+.text-knfs-primary {
+    color: var(--knfs-primary) !important;
+}
+
+.text-knfs-secondary {
+    color: var(--knfs-secondary) !important;
+}
+
+.bg-knfs-secondary {
+    background-color: var(--knfs-secondary) !important;
+}
+
+.z-index-2 {
+    z-index:2;
+}
+
+.z-index-3 {
+    z-index: 3;
+}
