@@ -2,414 +2,290 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>KNFs</title>
-	<!-- Google Font: Source Serif 4 -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<!-- <base href="https://www.knfs-tech.com"> -->
+	<link rel="icon" type="image/x-icon" href="assets/img/logo.png">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap" rel="stylesheet">
 	<link
 		href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap"
 		rel="stylesheet">
-	<!-- Boostrap v5 -->
-	<link rel="stylesheet" href="assets/vendors/bootstrap-5.1.3/css/bootstrap.min.css">
-	<!-- Layout css -->
-	<link rel="stylesheet" href="assets/css/layout.css">
-	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
 	<link rel="stylesheet" href="assets/vendors/fontawesome-free/css/all.min.css">
-	<!-- Utilities css -->
-	<link rel="stylesheet" href="assets/css/ultilities.css">
-	<link rel="stylesheet" href="assets/css/home.css">
-	<link rel="stylesheet" href="assets/css/partner.css">
-	<link rel="stylesheet" href="assets/css/contact.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-light bg-transparent-black fixed-top px-sm-3" id="navbar">
-		<a class="navbar-brand" href="">
-			<img src="assets/img/knfs-logo-contra-trans-back.png" alt="KNFS Logo"
-				class="brand-image img-circle logo-header logo-animation">
-		</a>
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-			aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item active">
-					<a class="nav-link font-serif text-light" href="">Home</a>
-				</li>
-	
-				<li class="nav-item">
-					<a class="nav-link font-serif text-light" href="">Services</a>
-				</li>
-	
-				<li class="nav-item">
-					<a class="nav-link font-serif text-light" href="">Portfolio</a>
-				</li>
-	
-				<li class="nav-item">
-					<a class="nav-link font-serif text-light" href="">Contact</a>
-				</li>
-			</ul>
+	<nav class="navbar navbar-expand-lg navbar-dark">
+		<div class="container d-flex justify-content-between align-items-center navbar-main">
+			<a class="navbar-brand" href="https://www.knfs-tech.com/" target="_blank" title="KNFs JSC"
+				rel="nofollow noopener">
+				<img src="assets/img/logo.png" alt="Logo" class="logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#ourStory">Our Story</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#ourService">Service</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="https://libs.knfs-tech.com">Library</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#ourContact">Contact</a>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
-	<div class="header-container">
-		<div class="container d-flex align-items-center justify-content-start">
-			<div class="text-container">
-				<h1 class="display-4 text-white font-serif">Welcome to KNFS Jsc</h1>
-				<p class="lead text-white font-serif">Discover our top-notch services and take your business to the next
-					level.</p>
-				<a class="btn btn-primary btn-lg btn-start font-serif" href="#" role="button">Learn more</a>
-			</div>
-		</div>
-	</div>
-	<section id="services" class="section mt-content">
-		<div class="container">
-			<span class="main-title text-center font-serif d-block mb-4">Our Story </span>
-			<section id="about" class="section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-6 ml-content">
-							<img src="assets/img/photo1.png" alt="Image" class="img-fluid img-mb">
-						</div>
-						<div class="col-md-6 font-serif">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit ligula non risus
-								convallis auctor.
-								Vestibulum in placerat ligula. Vestibulum sit amet ipsum in quam tincidunt hendrerit.
-								Curabitur at dolor ac
-								felis cursus consectetur id in neque.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-			<div class="row">
-				<div class="col-lg-4">
-					<div class="card mb-4">
-						<i class="far fa-building fa-lg icon-str"></i>
-						<div class="card-body">
-							<h4 class="card-title font-serif">Who We Are?</h4>
-							<p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="card mb-4">
-						<i class="far fa-handshake fa-lg icon-str"></i>
-						<div class="card-body">
-							<h4 class="card-title font-serif">Why We Exist?</h4>
-							<p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4">
-					<div class="card mb-4">
-						<i class="fas fa-users fa-lg icon-str"></i>
-						<div class="card-body">
-							<h4 class="card-title font-serif">Whom Do We Serve?</h4>
-							<p class="card-text font-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
+	<section id="carouselIndicators" class="carousel container" data-ride="carousel">
 		<ol class="carousel-indicators">
-			<li data-bs-target="#carouselSlide" data-bs-slide-to="" class="active"></li>
+			<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselIndicators" data-slide-to="2"></li>
+			<li data-target="#carouselIndicators" data-slide-to="3"></li>
 		</ol>
-		<div class="carousel-inner font-serif">
-			<div class="carousel-item active">
-				<img src="" class="d-block w-100" alt="...">
-				<div class="carousel-caption d-none d-md-block">
-					<h4>Title</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					<a href="" class="btn btn-primary btn-lg btn-start font-serif" role="button">See
-						Detail</a>
+		<div class="carousel-inner">
+			<div class="carousel-item active" id="carouselItemVideo1">
+				<video autoplay muted loop">
+					<source src="assets/media/landmark81.mp4" type="video/mp4">
+					Modern
+				</video>
+				<div class="carousel-caption">
+					<h1 class="">Welcome to KNFs</h1>
+					<p class="lead">Together we will bring technology everywhere.</p>
+				</div>
+			</div>
+			<div class="carousel-item" id="carouselItemVideo2">
+				<video autoplay muted loop>
+					<source src="assets/media/xl_ha.mp4" type="video/mp4">
+					Idyllic
+				</video>
+				<div class="carousel-caption">
+					<h1 class="">KNFs Vision</h1>
+					<p class="lead">Vietnam: A country full of vitality, energy and desire to meet and solve challenges
+						of the future.</p>
+				</div>
+			</div>
+			<div class="carousel-item" id="carouselItemVideo3">
+				<video autoplay muted loop>
+					<source src="assets/media/hue.mp4" type="video/mp4">
+					Romantic
+				</video>
+				<div class="carousel-caption">
+					<h1 class="">KNFs Mission</h1>
+					<p class="lead">Mark the Vietnamese flag on the world technology map. Accompanying businesses, organizations and individuals to improve information technology capacity and level, bringing technology to every corner of Vietnam
+						and everywhere.</p>
+				</div>
+			</div>
+			<div class="carousel-item" id="carouselItemVideo4">
+				<video autoplay muted loop">
+					<source src="assets/media/hanoi.mp4" type="video/mp4">
+					Peaceful
+				</video>
+				<div class="carousel-caption">
+					<h1 class="">KNFs Core Value</h1>
+					<p class="lead">KNFs constantly creates information technology solutions to support customers, in many different processes from information technology developers, to information technology users.</p>
 				</div>
 			</div>
 		</div>
-		<button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
+		<a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
 			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
 			<span class="sr-only">Previous</span>
-		</button>
-		<button class="carousel-control-next" type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
+		</a>
+		<a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
 			<span class="carousel-control-next-icon" aria-hidden="true"></span>
 			<span class="sr-only">Next</span>
-		</button>
-	</div>
-	
-	<section class="content-section content-section-1 font-serif">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h2 class="content-title">Our Vision</h2>
-					<p class="content-description">Vietnam 4.0: A thriving nation
-						equipped to meet the challenges
-						of the future.</p>
+		</a>
+	</section>
+ 	<main class="container-fluid mkt">
+		<div class="container our-story">
+			<div class="align-items-center label-component-main" id="#ourStory">
+				<h2><strong>Our Story</strong></h2>
+			</div>
+			<div class="row container story-box mkt">
+				<div class="story-element col-md-8 col-12" id="ourStory1">
+					<p>
+						On April 1, 2021, KNFs was founded by <strong>two Vietnamese software engineers</strong> with a strong passion
+						for information
+						technology. We aspire to make information technology a solution for life. Believing firmly that technology
+						should serve
+						people, we focus on efficiency and optimization, steering clear of any frills or complications.
+					</p>
+					<p>
+						KNFs stands for <strong>Kent and Friends</strong>. With us, everyone is a friend, united in developing the
+						information technology
+						industry. Join us on the journey to bring information technology to every place and every field.
+					</p>
+					<p>
+						We always believe in the information technology capabilities of Vietnamese people. Vietnamese engineers constantly
+						strive and strive to bring information technology to everywhere
+					</p>
+				</div>
+				<div class="story-element col-md-4 col-12" >
+					<div id="backgroundContainer"></div>
 				</div>
 			</div>
 		</div>
-	</section>
-	
-	<section class="content-section content-section-2 font-serif">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 offset-md-6 content-right">
-					<h2 class="content-title">Our Vision</h2>
-					<p class="content-description-right">Vietnam 4.0: A thriving nation
-						equipped to meet the challenges
-						of the future.</p>
+		<div class="container-fluid mkt-6">
+			<div class="container align-items-center label-component-main" id="#ourService">
+				<h2><strong>KNFs Services</strong></h2>
+				<div class="card-slide-control">
+					<a class="card-slide-control--prev" role="button" data-slide="prev" id="cardSlideControlPrev">
+						<i class="fas fa-chevron-left"></i>
+					</a>
+					<a class="card-slide-control--next" role="button" data-slide="next"  id="cardSlideControlNext">
+						<i class="fas fa-chevron-right"></i>
+					</a>
+				</div>
+			</div>
+			<div class="row container-fluid card-slider-box">
+				<div class="card-slider-inner mkt">
+					<div class="card-slider-shift"></div>
+					<a href="https://magazine.knfs-tech.com" class="text-decoration-none hover-underline">
+						<div class="card-slider" style="background-image: url(assets/img/tra-dam.jpg);">
+							<p>	
+								For Everyone
+							</p>
+						</div>
+					</a>
+					<a href="https://magazine.knfs-tech.com" class="text-decoration-none hover-underline">
+						<div class="card-slider" style="background-image: url(assets/img/hoa-sen.jpg);">
+							<p>	
+								For Startups
+							</p>
+						</div>
+					</a>
+					<a href="https://magazine.knfs-tech.com" class="text-decoration-none hover-underline">
+						<div class="card-slider" style="background-image: url(assets/img/2-thieu-nu-va-em-be.jpg);">
+							<p>
+								For Enterprises
+							</p>	
+						</div>
+					</a>
+					<a href="https://magazine.knfs-tech.com" class="text-decoration-none hover-underline">
+						<div class="card-slider" style="background-image: url(assets/img/doi-ban.jpg);">
+							<p>	
+								For Partners
+							</p>
+						</div>
+					</a>
+					<a href="https://libs.knfs-tech.com" class="text-decoration-none hover-underline">
+						<div class="card-slider" style="background-image: url(assets/img/dan-len.jpg);">
+								<p>For Developers</p>
+						</div>
+					</a>
+					<a href="https://research.knfs-tech.com" class="text-decoration-none hover-underline">
+						<div class="card-slider" style="background-image: url(assets/img/o-an-quan.jpg);">
+							<p>
+								For Researcher
+							</p>
+						</div>
+					</a>
+					<a href="https://magazine.knfs-tech.com" class="text-decoration-none hover-underline">
+						<div class="card-slider" style="background-image: url(assets/img/em-thuy.jpg);">
+							<p>	
+								For Educations
+							</p>
+						</div>
+					</a>
+					<div class="card-slider-shift"></div>
 				</div>
 			</div>
 		</div>
-	</section>
-	
-	<section class="content-section content-section-1 font-serif">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<h2 class="content-title">Our Features</h2>
-					<p class="content-description">Vietnam 4.0: A thriving nation
-						equipped to meet the challenges
-						of the future.</p>
-				</div>
+		<div class="container mkt-2">
+			<div class="container align-items-center label-component-main" id="#ourContact">
+				<h2><strong>KNFs Contact</strong></h2>
 			</div>
-		</div>
-	</section>
-	
-	<section id="strategic-partners" class="section mt-content mb-content">
-		<div class="container">
-			<span class="sub-title text-center d-block font-serif">KNFS CONNECTIONS</span>
-			<span class="main-title text-center font-serif d-block mb-4">Strategic Partnership</span>
-			<div class="row text-center">
-				<div class="col-md-2 col-sm-12 mb-4">
-					<img src="assets/img/Partner-1.png" class="partner-img img-fluid" alt="Partner 1">
-				</div>
-				<div class="col-md-2 col-sm-12 mb-4">
-					<img src="assets/img/Partner-2.png" class="partner-img img-fluid" alt="Partner 2">
-				</div>
-				<div class="col-md-2 col-sm-12 mb-4">
-					<img src="assets/img/Partner-3.png" class="partner-img img-fluid" alt="Partner 3">
-				</div>
-				<div class="col-md-2 col-sm-12 mb-4">
-					<img src="assets/img/Partner-4.png" class="partner-img img-fluid" alt="Partner 4">
-				</div>
-				<div class="col-md-2 col-sm-12 mb-4">
-					<img src="assets/img/Partner-5.png" class="partner-img img-fluid" alt="Partner 5">
-				</div>
-				<div class="col-md-2 col-sm-12 mb-4">
-					<img src="assets/img/Partner-6.png" class="partner-img img-fluid" alt="Partner 6">
-				</div>
-			</div>
-		</div>
-	</section>
-	
-	<section class="leadership-section font-serif">
-		<div class="container">
-			<span class="sub-title text-center d-block font-serif">WE MAKE CONNECTIONS</span>
-			<span class="main-title text-center font-serif d-block">Leadership Team</span>
-			<div id="leadership-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
-				<ol class="carousel-indicators">
-					<li data-bs-target="#leadership-carousel" data-bs-slide-to=""
-						class="active"></li>
-				</ol>
-				<div class="carousel-inner">
-					<div class="carousel-item active">
-						<div class="row justify-content-center">
-							<div class="col-md-3">
-								<div class="leader-card">
-									<img src="assets/img/leader1.jpg" alt="Leader 1"
-										class="img-responsive w-100">
-									<div class="leader-social">
-										<a href="" target="_blank"
-											rel="noopener noreferrer">
-											<i class="fab fa-linkedin"></i>
-										</a>
-										<a href="" target="_blank"
-											rel="noopener noreferrer" class="github">
-											<i class="fab fa-github"></i>
-										</a>
-									</div>
-									<h3 class="leader-name">Kent Phung</h3>
-									<p class="leader-role">CEO</p>
-								</div>
-							</div>
+			<div class="row container contact mkt">
+				<form action="#" method="POST">
+					<div class="row">
+						<div class="form-group mb-form col-md-6 col-12">
+							<label for="nameContact" class="label-input">Name*</label>
+							<input name="name" type="text" class="form-control" id="nameContact" placeholder="Enter your name">
+						</div>
+						<div class="form-group mb-form col-md-6 col-12">
+							<label for="emailContact" class="label-input">Email*</label>
+							<input name="email" type="email" class="form-control" id="emailContact" placeholder="Enter your email">
 						</div>
 					</div>
-				</div>
-				<button class="carousel-control-prev" type="button" data-bs-target="#leadership-carousel"
-					data-bs-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</button>
-				<button class="carousel-control-next" type="button" data-bs-target="#leadership-carousel"
-					data-bs-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
-				</button>
-			</div>
-		</div>
-	</section>
-	<div class="container mt-content mb-content font-serif">
-		<div class="row">
-			<div class="col-md-6">
-				<div class="d-flex flex-column h-100">
-					<h2>Address & Contact Information</h2>
-					<div class="infor">
-						<i class="fas fa-phone-alt fa-lg mt-infor"></i><span class="ml-2 pl-infor">+84 941 167 150</span>
-						<br>
-						<i class="fas fa-envelope fa-lg mt-infor"></i><span class="ml-2 pl-infor">contact@knfs.com</span>
-						<br>
-						<i class="fas fa-globe fa-lg mt-infor"></i><span class="ml-2 pl-infor">www.knfs.com</span>
-						<br>
-						<i class="fas fa-map-marker-alt fa-lg mt-infor"></i><span class="ml-2 pl-infor">Level 8, Hoa Dao
-							Building (Office Block), No. 713 Lac Long Quan, Phu Thuong Ward, Tay Ho District,
-							Hanoi.</span>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6">
-				<form action="" method="POST" enctype="multipart/form-data">
-					<div class="form-group mb-form">
-						<label for="nameContact" class="label-input">Name <span class="position"><i
-									class="fas fa-asterisk fa-xs sm-red"></i><span></label>
-						<input name="name" type="text" class="form-control" id="nameContact" placeholder="Enter your name">
-					</div>
-					<div class="form-group mb-form">
-						<label for="emailContact" class="label-input">Email <span class="position"><i
-									class="fas fa-asterisk fa-xs sm-red"></i><span></label>
-						<input name="email" type="email" class="form-control" id="emailContact"
-							placeholder="Enter your email">
-					</div>
-					<div class="form-group mb-form">
-						<label for="phoneNumberContact" class="label-input">Phone Number <span class="position"><i
-									class="fas fa-asterisk fa-xs sm-red"></i><span></label>
-						<input name="phone" type="text" class="form-control" id="phoneNumberContact"
-							placeholder="Enter your phone number">
-					</div>
-					<div class="form-group mb-form">
-						<label for="knowContact" class="label-input">You know KNFs through</label>
-						<select class="form-control" id="knowContact">
-							<option>-- Choose --</option>
-							<option>Google</option>
-							<option>Linkedin</option>
-							<option>Clutch</option>
-							<option>Friends</option>
-							<option>Others</option>
-						</select>
-					</div>
-					<div class="form-group mb-form">
-						<label for="companyContact" class="label-input">Your Company's name <span class="position"><i
-									class="fas fa-asterisk fa-xs sm-red"></i><span></label>
-						<input name="company_name" type="text" class="form-control" id="companyContact"
-							placeholder="Enter your company's name">
+					<div class="row">
+						<div class="form-group mb-form col-md-6 col-12">
+							<label for="phoneNumberContact" class="label-input">Phone Number*</label>
+							<input name="phone" type="text" class="form-control" id="phoneNumberContact" placeholder="Enter your phone number">
+						</div>
+						<div class="form-group mb-form col-md-6 col-12">
+							<label for="companyContact" class="label-input">Your Company's name</label>
+							<input name="company_name" type="text" class="form-control" id="companyContact"
+								placeholder="Enter your company's name">
+						</div>
 					</div>
 					<div class="form-group mb-form">
 						<label for="messageContact" class="col-form-label label-input">Message</label>
-						<textarea name="message" type="text" id="messageContact" class="form-control"
-							placeholder="Your request to KNFs" style="height: 100px"></textarea>
+						<textarea name="message" type="text" id="messageContact" class="form-control" placeholder="Your request to KNFs"></textarea>
 					</div>
-					<button type="submit" class="btn btn-info">Contact Now!</button>
+					<div class="form-group mb-form">
+						<button type="submit" class="btn btn-info">Contact Now!</button>
+					</div>
 				</form>
-				<div class="showMessage mt-4">
-					<div class="alert alert-success alert-dismissible fade show" role="alert">
-						<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-					</div>
-					<div class="alert alert-warning alert-dismissible fade show" role="alert">
-						<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-					</div>
-				</div>
 			</div>
 		</div>
-	</div>
-	<footer class="footer color-footer font-serif">
+	</main>
+
+	<footer class="mkt-2">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 mt-logo-footer">
-					<a class="navbar-brand" href=""><img
-							src="assets/img/knfs-logo-contra-trans-back.png" alt="KNFS Logo"
-							class="brand-image img-circle logo-header"></a>
-					<a class="navbar-brand text-white text-bold" href="">KNFS Jsc</a>
-					<p class="text-white mt-footer pb-5">All Rights Reserved © knfsjsc.com</p>
-					<p class="text-white">Address:
-						'Level 8, Hoa Dao Building (Office Block), No.
-						713 Lac Long Quan, Phu Thuong Ward, Tay Ho District, Hanoi.'
-					</p>
-					<p class="text-white pb-5">Hotline:
-						+84 941 167 150
-					<p class="text-white">Email: knfs.jsc@gmail.com
-					</p>
-					<p class="text-white">Follow us:</p>
-					<ul class="list-unstyled d-flex">
-						<li class="mr-social-footer"><a href=""><i
-									class="fab fa-facebook-square"></i></a></li>
-						<li class="mr-social-footer"><a href=""><i
-									class="fab fa-github-square"></i></a></li>
-						<li class="mr-social-footer"><a href=""><i class="fab fa-linkedin"></i></a>
-						</li>
-						<li><a href=""><i class="fab fa-instagram-square"></i></a></li>
-					</ul>
-				</div>
-				<div class="col-md-2 mt-footer-column text-white text-decoration-none height-footer">
-					<h4 class="text-bold">Product</h4>
+				<div class="col-md-4 mt-footer-column text-decoration-none height-footer">
+					<h5 class="text-bold">Website</h5>
 					<ul class="list-unstyled">
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Product</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Pricing</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Enterprise</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Partners</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Developers</a></li>
+						<li><a href="https://libs.knfs-tech.com" class="text-decoration-none hover-underline">Library</a></li>
+						<li><a href="https://research.knfs-tech.com" class="text-decoration-none hover-underline">Research</a></li>
+						<li><a href="https://magazine.knfs-tech.com" class="text-decoration-none hover-underline">Magazine</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 mt-footer-column text-white text-decoration-none height-footer">
-					<h4 class="text-bold">Team</h4>
+				<div class="col-md-4 mt-footer-column text-decoration-none height-footer">
+					<h5 class="text-bold">Team</h5>
 					<ul class="list-unstyled">
-						<li><a href="#" class="text-white text-decoration-none hover-underline">About Us</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Contact Us</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Careers</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Find a Partner</a>
+						<li><a href="#ourStory" class="text-decoration-none hover-underline">Our story</a></li>
+						<li><a href="#ourContact" class="text-decoration-none hover-underline">Contact Us</a></li>
+						<li><a href="https://careers.knfs-tech.com" class="text-decoration-none hover-underline">Careers</a></li>
+						<li><a href="https://leadership.knfs-tech.com" class="text-decoration-none hover-underline">Leadership</a></li>
+						<li><a href="https://partnership.knfs-tech.com" class="text-decoration-none hover-underline">Partnership</a></li>
 						</li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">In the News</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 mt-footer-column text-white text-decoration-none height-footer">
-					<h4 class="text-bold">Solutions</h4>
+				<div class="col-md-4 mt-footer-column text-decoration-none height-footer">
+					<h5 class="text-bold">Social</h5>
 					<ul class="list-unstyled">
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Project Management</a>
+						<li><a href="https://github.com/knfs-jsc" class="text-decoration-none hover-underline">Github</a>
 						</li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Software
-								Development</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Constructions</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Remote Work</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">CRM and Sales</a></li>
+						<li><a href="https://www.linkedin.com/company/knfs-jsc" class="text-decoration-none hover-underline">Linkedin</a></li>
+						<li><a href="#" class="text-decoration-none hover-underline">Discord</a></li>
+						<li><a href="https://www.facebook.com/knfs.tech" class="text-decoration-none hover-underline">Facebook</a></li>
 					</ul>
 				</div>
-				<div class="col-md-2 mt-footer-column text-white text-decoration-none height-footer">
-					<h4 class="text-bold">Resources</h4>
-					<ul class="list-unstyled">
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Knowledge Base</a>
-						</li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Daily Webinars</a>
-						</li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Community</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Blog</a></li>
-						<li><a href="#" class="text-white text-decoration-none hover-underline">Profesionals
-								Services</a></li>
-					</ul>
-				</div>
+				
+			</div>
+		</div>
+		<div class="container d-flex justify-content-between align-items-center">
+			<div class="text-align-center">
+				<p>&copy; 2024 KNFs.,jsc<p>
 			</div>
 		</div>
 	</footer>
 
-	<!-- Bootstrap v5 -->
-	<script src="assets/vendors/bootstrap-5.1.3/js/bootstrap.bundle.min.js" ></script>
-	<!-- jQuery -->
-	<script src="assets/vendors/jquery/jquery.min.js"></script>
-	<script src="assets/vendors/jquery/jquery.js"></script>
-	<!-- Layout Js -->
-	<script src="assets/js/layout.js"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="assets/js/script.js"></script>
 </body>
 
 </html>
