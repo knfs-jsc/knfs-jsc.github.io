@@ -51,8 +51,7 @@ nav {
 	background-color: #f9f9f9 !important;
 }
 
-.navbar-toggler span {
-	background-color: #013c4d !important;
+.navbar-toggler i {
 	color: #013c4d !important;
 }
 
@@ -137,8 +136,6 @@ h1 {
 
 .lead {
 	color: #f9f9f9;
-	width: 28.55em;
-	margin-left: 5em;
 }
 
 
@@ -150,6 +147,10 @@ h1 {
 	.carousel-caption h1 {
 		font-size: 2em;
 	}
+	
+	.lead {
+		font-size: 15px;
+	}
 }
 
 @media only screen and (max-width: 329px) {
@@ -159,6 +160,10 @@ h1 {
 
 	.carousel-caption h1 {
 		font-size: 2em;
+	}
+
+	.lead {
+		font-size: 13px;
 	}
 }
 
