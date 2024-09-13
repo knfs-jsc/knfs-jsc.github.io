@@ -134,6 +134,10 @@ h1 {
 	text-shadow: 1px 8px 15px rgba(93, 91, 91, 0.28);
 }
 
+.carousel-caption h1 {
+	font-size: 60px !important;
+}
+
 .lead {
 	color: #f9f9f9;
 }
